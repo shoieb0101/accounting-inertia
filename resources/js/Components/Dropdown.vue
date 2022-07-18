@@ -22,6 +22,7 @@ const closeOnEscape = (e) => {
 onMounted(() => document.addEventListener('keydown', closeOnEscape));
 onUnmounted(() => document.removeEventListener('keydown', closeOnEscape));
 
+
 const widthClass = computed(() => {
     return {
         '64': 'w-64',
